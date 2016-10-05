@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SAPInputAndLogViewController.m
 //  SocketsMRC
 //
 //  Created by ASH on 10/5/16.
 //  Copyright © 2016 SAP. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SAPInputAndLogViewController.h"
 
-@interface ViewController ()
+@interface SAPInputAndLogViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SAPInputAndLogViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

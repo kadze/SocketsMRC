@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5EC7FAE51DA4F7D0005186BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAE41DA4F7D0005186BF /* main.m */; };
 		5EC7FAE81DA4F7D0005186BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */; };
-		5EC7FAEB1DA4F7D0005186BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEA1DA4F7D0005186BF /* ViewController.m */; };
+		5EC7FAEB1DA4F7D0005186BF /* SAPInputAndLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */; };
 		5EC7FAEE1DA4F7D0005186BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEC1DA4F7D0005186BF /* Main.storyboard */; };
 		5EC7FAF11DA4F7D0005186BF /* SocketsMRC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEF1DA4F7D0005186BF /* SocketsMRC.xcdatamodeld */; };
 		5EC7FAF31DA4F7D0005186BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		5EC7FAE41DA4F7D0005186BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EC7FAE61DA4F7D0005186BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EC7FAE91DA4F7D0005186BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EC7FAEA1DA4F7D0005186BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5EC7FAE91DA4F7D0005186BF /* SAPInputAndLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPInputAndLogViewController.h; sourceTree = "<group>"; };
+		5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPInputAndLogViewController.m; sourceTree = "<group>"; };
 		5EC7FAED1DA4F7D0005186BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC7FAF01DA4F7D0005186BF /* SocketsMRC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocketsMRC.xcdatamodel; sourceTree = "<group>"; };
 		5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 			children = (
 				5EC7FAE61DA4F7D0005186BF /* AppDelegate.h */,
 				5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */,
-				5EC7FAE91DA4F7D0005186BF /* ViewController.h */,
-				5EC7FAEA1DA4F7D0005186BF /* ViewController.m */,
+				5EC7FAE91DA4F7D0005186BF /* SAPInputAndLogViewController.h */,
+				5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */,
 				5EC7FAEC1DA4F7D0005186BF /* Main.storyboard */,
 				5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */,
 				5EC7FAF41DA4F7D0005186BF /* LaunchScreen.storyboard */,
@@ -153,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC7FAEB1DA4F7D0005186BF /* ViewController.m in Sources */,
+				5EC7FAEB1DA4F7D0005186BF /* SAPInputAndLogViewController.m in Sources */,
 				5EC7FAF11DA4F7D0005186BF /* SocketsMRC.xcdatamodeld in Sources */,
 				5EC7FAE81DA4F7D0005186BF /* AppDelegate.m in Sources */,
 				5EC7FAE51DA4F7D0005186BF /* main.m in Sources */,

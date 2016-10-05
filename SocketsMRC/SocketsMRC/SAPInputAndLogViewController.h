@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SAPInputAndLogViewController.h
 //  SocketsMRC
 //
 //  Created by ASH on 10/5/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SAPInputAndLogViewController : UIViewController
 
 
 @end
