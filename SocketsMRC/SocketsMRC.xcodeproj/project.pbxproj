@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		5EC7FAE51DA4F7D0005186BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAE41DA4F7D0005186BF /* main.m */; };
 		5EC7FAE81DA4F7D0005186BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */; };
-		5EC7FAEB1DA4F7D0005186BF /* SAPInputAndLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */; };
 		5EC7FAEE1DA4F7D0005186BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEC1DA4F7D0005186BF /* Main.storyboard */; };
-		5EC7FAF11DA4F7D0005186BF /* SocketsMRC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FAEF1DA4F7D0005186BF /* SocketsMRC.xcdatamodeld */; };
-		5EC7FAF31DA4F7D0005186BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */; };
 		5EC7FAF61DA4F7D0005186BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FAF41DA4F7D0005186BF /* LaunchScreen.storyboard */; };
+		5EC7FB051DA52D08005186BF /* SocketsMRC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FB031DA52D08005186BF /* SocketsMRC.xcdatamodeld */; };
+		5EC7FB081DA52D22005186BF /* SAPInputAndLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC7FB071DA52D22005186BF /* SAPInputAndLogViewController.m */; };
+		5EC7FB0A1DA52D41005186BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC7FB091DA52D41005186BF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +21,13 @@
 		5EC7FAE41DA4F7D0005186BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EC7FAE61DA4F7D0005186BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EC7FAE91DA4F7D0005186BF /* SAPInputAndLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAPInputAndLogViewController.h; sourceTree = "<group>"; };
-		5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAPInputAndLogViewController.m; sourceTree = "<group>"; };
 		5EC7FAED1DA4F7D0005186BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EC7FAF01DA4F7D0005186BF /* SocketsMRC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocketsMRC.xcdatamodel; sourceTree = "<group>"; };
-		5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC7FAF51DA4F7D0005186BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC7FAF71DA4F7D0005186BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC7FB041DA52D08005186BF /* SocketsMRC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocketsMRC.xcdatamodel; sourceTree = "<group>"; };
+		5EC7FB061DA52D22005186BF /* SAPInputAndLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPInputAndLogViewController.h; sourceTree = "<group>"; };
+		5EC7FB071DA52D22005186BF /* SAPInputAndLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPInputAndLogViewController.m; sourceTree = "<group>"; };
+		5EC7FB091DA52D41005186BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				5EC7FAE21DA4F7D0005186BF /* SocketsMRC */,
+				5EC7FAFD1DA52AD6005186BF /* Resources */,
+				5EC7FAFE1DA52AEB005186BF /* Source */,
 				5EC7FAE11DA4F7D0005186BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,13 +64,9 @@
 			children = (
 				5EC7FAE61DA4F7D0005186BF /* AppDelegate.h */,
 				5EC7FAE71DA4F7D0005186BF /* AppDelegate.m */,
-				5EC7FAE91DA4F7D0005186BF /* SAPInputAndLogViewController.h */,
-				5EC7FAEA1DA4F7D0005186BF /* SAPInputAndLogViewController.m */,
 				5EC7FAEC1DA4F7D0005186BF /* Main.storyboard */,
-				5EC7FAF21DA4F7D0005186BF /* Assets.xcassets */,
 				5EC7FAF41DA4F7D0005186BF /* LaunchScreen.storyboard */,
 				5EC7FAF71DA4F7D0005186BF /* Info.plist */,
-				5EC7FAEF1DA4F7D0005186BF /* SocketsMRC.xcdatamodeld */,
 				5EC7FAE31DA4F7D0005186BF /* Supporting Files */,
 			);
 			path = SocketsMRC;
@@ -80,6 +78,56 @@
 				5EC7FAE41DA4F7D0005186BF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC7FAFD1DA52AD6005186BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7FB091DA52D41005186BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EC7FAFE1DA52AEB005186BF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7FB011DA52B78005186BF /* UI */,
+				5EC7FAFF1DA52B78005186BF /* Library */,
+				5EC7FB001DA52B78005186BF /* Models */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5EC7FAFF1DA52B78005186BF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5EC7FB001DA52B78005186BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7FB021DA52D08005186BF /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5EC7FB011DA52B78005186BF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7FB061DA52D22005186BF /* SAPInputAndLogViewController.h */,
+				5EC7FB071DA52D22005186BF /* SAPInputAndLogViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5EC7FB021DA52D08005186BF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7FB031DA52D08005186BF /* SocketsMRC.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EC7FAF61DA4F7D0005186BF /* LaunchScreen.storyboard in Resources */,
-				5EC7FAF31DA4F7D0005186BF /* Assets.xcassets in Resources */,
+				5EC7FB0A1DA52D41005186BF /* Assets.xcassets in Resources */,
 				5EC7FAEE1DA4F7D0005186BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +201,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC7FAEB1DA4F7D0005186BF /* SAPInputAndLogViewController.m in Sources */,
-				5EC7FAF11DA4F7D0005186BF /* SocketsMRC.xcdatamodeld in Sources */,
+				5EC7FB051DA52D08005186BF /* SocketsMRC.xcdatamodeld in Sources */,
+				5EC7FB081DA52D22005186BF /* SAPInputAndLogViewController.m in Sources */,
 				5EC7FAE81DA4F7D0005186BF /* AppDelegate.m in Sources */,
 				5EC7FAE51DA4F7D0005186BF /* main.m in Sources */,
 			);
@@ -317,12 +365,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5EC7FAEF1DA4F7D0005186BF /* SocketsMRC.xcdatamodeld */ = {
+		5EC7FB031DA52D08005186BF /* SocketsMRC.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5EC7FAF01DA4F7D0005186BF /* SocketsMRC.xcdatamodel */,
+				5EC7FB041DA52D08005186BF /* SocketsMRC.xcdatamodel */,
 			);
-			currentVersion = 5EC7FAF01DA4F7D0005186BF /* SocketsMRC.xcdatamodel */;
+			currentVersion = 5EC7FB041DA52D08005186BF /* SocketsMRC.xcdatamodel */;
 			path = SocketsMRC.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
